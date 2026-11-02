@@ -1,0 +1,11 @@
+Model,CV_R2_Mean,CV_R2_Std,Test_R2,Test_MAE,Test_MSE,Test_RMSE,Best_Params,Model_File
+Random Forest Regressor,0.8326,0.0972,0.8737,1.0794,3.0462,1.7453,"{'max_depth': 15, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}",reg_model_random_forest_regressor.pkl
+Multiple Linear Regression,0.7869,0.0618,0.8592,1.1083,3.3972,1.8431,{'features': 'all_41'},reg_model_multiple_linear_regression.pkl
+Ridge Regression,0.7897,0.0661,0.8536,1.1459,3.5319,1.8793,{'alpha': 10.0},reg_model_ridge_regression.pkl
+Lasso Regression,0.8155,0.0579,0.8502,1.0667,3.6147,1.9012,{'alpha': 0.1},reg_model_lasso_regression.pkl
+Simple Linear Regression,0.8174,0.0552,0.8423,1.1009,3.8045,1.9505,"{'feature': 'G2', 'intercept': 10.462025316455696, 'slope': 4.04172706738193}",reg_model_simple_linear_regression.pkl
+Polynomial Regression (Degree 2),0.8204,0.0539,0.84,1.1142,3.8592,1.9645,"{'degree': 2, 'features': ['G1', 'G2']}",reg_model_polynomial_regression_degree_2.pkl
+SVR (Linear Kernel),0.8075,0.0645,0.8265,1.0018,4.1859,2.0459,"{'C': 1.0, 'epsilon': 0.05}",reg_model_svr_linear_kernel.pkl
+Decision Tree Regressor,0.8124,0.0874,0.8105,1.3886,4.571,2.138,"{'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}",reg_model_decision_tree_regressor.pkl
+SVR (RBF Kernel),0.7767,0.0791,0.7953,1.315,4.939,2.2224,"{'C': 10.0, 'epsilon': 0.05, 'gamma': 0.01}",reg_model_svr_rbf_kernel.pkl
+SVR (Polynomial Kernel),0.5978,0.0871,0.5786,2.0712,10.1662,3.1884,"{'C': 10.0, 'degree': 3, 'epsilon': 0.05}",reg_model_svr_polynomial_kernel.pkl

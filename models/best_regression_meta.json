@@ -1,0 +1,16 @@
+{
+    "Model": "Random Forest Regressor",
+    "CV_R2_Mean": 0.8326,
+    "CV_R2_Std": 0.0972,
+    "Test_R2": 0.8737,
+    "Test_MAE": 1.0794,
+    "Test_MSE": 3.0462,
+    "Test_RMSE": 1.7453,
+    "Best_Params": {
+        "max_depth": 15,
+        "min_samples_leaf": 1,
+        "min_samples_split": 5,
+        "n_estimators": 200
+    },
+    "Model_File": "reg_model_random_forest_regressor.pkl"
+}

@@ -1,0 +1,148 @@
+[
+    {
+        "Model": "Simple Linear Regression",
+        "CV_R2_Mean": 0.8174,
+        "CV_R2_Std": 0.0552,
+        "Test_R2": 0.8423,
+        "Test_MAE": 1.1009,
+        "Test_MSE": 3.8045,
+        "Test_RMSE": 1.9505,
+        "Best_Params": {
+            "feature": "G2",
+            "intercept": 10.462025316455696,
+            "slope": 4.04172706738193
+        },
+        "Model_File": "reg_model_simple_linear_regression.pkl"
+    },
+    {
+        "Model": "Multiple Linear Regression",
+        "CV_R2_Mean": 0.7869,
+        "CV_R2_Std": 0.0618,
+        "Test_R2": 0.8592,
+        "Test_MAE": 1.1083,
+        "Test_MSE": 3.3972,
+        "Test_RMSE": 1.8431,
+        "Best_Params": {
+            "features": "all_41"
+        },
+        "Model_File": "reg_model_multiple_linear_regression.pkl"
+    },
+    {
+        "Model": "Polynomial Regression (Degree 2)",
+        "CV_R2_Mean": 0.8204,
+        "CV_R2_Std": 0.0539,
+        "Test_R2": 0.84,
+        "Test_MAE": 1.1142,
+        "Test_MSE": 3.8592,
+        "Test_RMSE": 1.9645,
+        "Best_Params": {
+            "degree": 2,
+            "features": [
+                "G1",
+                "G2"
+            ]
+        },
+        "Model_File": "reg_model_polynomial_regression_degree_2.pkl"
+    },
+    {
+        "Model": "Ridge Regression",
+        "CV_R2_Mean": 0.7897,
+        "CV_R2_Std": 0.0661,
+        "Test_R2": 0.8536,
+        "Test_MAE": 1.1459,
+        "Test_MSE": 3.5319,
+        "Test_RMSE": 1.8793,
+        "Best_Params": {
+            "alpha": 10.0
+        },
+        "Model_File": "reg_model_ridge_regression.pkl"
+    },
+    {
+        "Model": "Lasso Regression",
+        "CV_R2_Mean": 0.8155,
+        "CV_R2_Std": 0.0579,
+        "Test_R2": 0.8502,
+        "Test_MAE": 1.0667,
+        "Test_MSE": 3.6147,
+        "Test_RMSE": 1.9012,
+        "Best_Params": {
+            "alpha": 0.1
+        },
+        "Model_File": "reg_model_lasso_regression.pkl"
+    },
+    {
+        "Model": "SVR (Linear Kernel)",
+        "CV_R2_Mean": 0.8075,
+        "CV_R2_Std": 0.0645,
+        "Test_R2": 0.8265,
+        "Test_MAE": 1.0018,
+        "Test_MSE": 4.1859,
+        "Test_RMSE": 2.0459,
+        "Best_Params": {
+            "C": 1.0,
+            "epsilon": 0.05
+        },
+        "Model_File": "reg_model_svr_linear_kernel.pkl"
+    },
+    {
+        "Model": "SVR (Polynomial Kernel)",
+        "CV_R2_Mean": 0.5978,
+        "CV_R2_Std": 0.0871,
+        "Test_R2": 0.5786,
+        "Test_MAE": 2.0712,
+        "Test_MSE": 10.1662,
+        "Test_RMSE": 3.1884,
+        "Best_Params": {
+            "C": 10.0,
+            "degree": 3,
+            "epsilon": 0.05
+        },
+        "Model_File": "reg_model_svr_polynomial_kernel.pkl"
+    },
+    {
+        "Model": "SVR (RBF Kernel)",
+        "CV_R2_Mean": 0.7767,
+        "CV_R2_Std": 0.0791,
+        "Test_R2": 0.7953,
+        "Test_MAE": 1.315,
+        "Test_MSE": 4.939,
+        "Test_RMSE": 2.2224,
+        "Best_Params": {
+            "C": 10.0,
+            "epsilon": 0.05,
+            "gamma": 0.01
+        },
+        "Model_File": "reg_model_svr_rbf_kernel.pkl"
+    },
+    {
+        "Model": "Decision Tree Regressor",
+        "CV_R2_Mean": 0.8124,
+        "CV_R2_Std": 0.0874,
+        "Test_R2": 0.8105,
+        "Test_MAE": 1.3886,
+        "Test_MSE": 4.571,
+        "Test_RMSE": 2.138,
+        "Best_Params": {
+            "max_depth": 3,
+            "min_samples_leaf": 2,
+            "min_samples_split": 2
+        },
+        "Model_File": "reg_model_decision_tree_regressor.pkl"
+    },
+    {
+        "Model": "Random Forest Regressor",
+        "CV_R2_Mean": 0.8326,
+        "CV_R2_Std": 0.0972,
+        "Test_R2": 0.8737,
+        "Test_MAE": 1.0794,
+        "Test_MSE": 3.0462,
+        "Test_RMSE": 1.7453,
+        "Best_Params": {
+            "max_depth": 15,
+            "min_samples_leaf": 1,
+            "min_samples_split": 5,
+            "n_estimators": 200
+        },
+        "Model_File": "reg_model_random_forest_regressor.pkl"
+    }
+]
