@@ -488,3 +488,4 @@ with open(output_path, "w") as f:
     json.dump(notebook, f, indent=2)
 
 print(f"Successfully generated {output_path}!")
+

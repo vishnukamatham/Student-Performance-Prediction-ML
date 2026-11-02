@@ -119,3 +119,4 @@ def preprocess_single_input(input_dict, feature_columns_path=None, scaler_path=N
     # Scale features
     scaled_array = scaler.transform(df_encoded)
     return pd.DataFrame(scaled_array, columns=feature_columns)
+
